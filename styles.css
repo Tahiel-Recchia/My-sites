@@ -99,11 +99,12 @@ ul{
     width: 100%;
 }
 
-a, li{
+li, a{
     background-color: #323233;
     border-radius: 0.5rem;
     width: 100%;
     text-align: center;
+    transition: background-color 400ms ease, font-weight 400ms ease;
 }
 
 li:hover, a:hover{
